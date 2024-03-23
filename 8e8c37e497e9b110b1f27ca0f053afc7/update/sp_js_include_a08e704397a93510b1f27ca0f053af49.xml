@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js</display_name>
+        <source>url</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 10:05:55</sys_created_on>
+        <sys_id>a08e704397a93510b1f27ca0f053af49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js</sys_name>
+        <sys_package display_value="Ajanta X-Ray Clinic" source="x_800383_ajanta_x">8e8c37e497e9b110b1f27ca0f053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ajanta X-Ray Clinic">8e8c37e497e9b110b1f27ca0f053afc7</sys_scope>
+        <sys_ui_script/>
+        <sys_update_name>sp_js_include_a08e704397a93510b1f27ca0f053af49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 10:05:55</sys_updated_on>
+        <url>https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js</url>
+    </sp_js_include>
+</record_update>

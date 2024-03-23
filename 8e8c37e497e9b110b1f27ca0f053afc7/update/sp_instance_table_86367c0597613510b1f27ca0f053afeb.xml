@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <display_field/>
+        <field_list>number,patient_name,age,referred_by,x_ray_date,r_s_value,x_ray_plate,price</field_list>
+        <filter table="x_800383_ajanta_x_ajanta_x_ray_details">sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        </filter>
+        <glyph>empty</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>sys_created_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b316788197613510b1f27ca0f053af2a</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-26 04:21:31</sys_created_on>
+        <sys_id>86367c0597613510b1f27ca0f053afeb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Today X-Ray Records</sys_name>
+        <sys_package display_value="Ajanta X-Ray Clinic" source="x_800383_ajanta_x">8e8c37e497e9b110b1f27ca0f053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ajanta X-Ray Clinic">8e8c37e497e9b110b1f27ca0f053afc7</sys_scope>
+        <sys_update_name>sp_instance_table_86367c0597613510b1f27ca0f053afeb</sys_update_name>
+        <sys_updated_by>shazeb0123</sys_updated_by>
+        <sys_updated_on>2023-09-27 04:41:22</sys_updated_on>
+        <table>x_800383_ajanta_x_ajanta_x_ray_details</table>
+        <title>Today X-Ray Records</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=86367c0597613510b1f27ca0f053afeb"/>
+</record_update>

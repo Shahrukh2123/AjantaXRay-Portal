@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_ray_type" table="x_800383_ajanta_x_ajanta_x_ray_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_ray_type</element>
+            <name>x_800383_ajanta_x_ajanta_x_ray_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-26 13:50:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ray_type</sys_name>
+            <sys_package display_value="Ajanta X-Ray Clinic" source="x_800383_ajanta_x">8e8c37e497e9b110b1f27ca0f053afc7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ajanta X-Ray Clinic">8e8c37e497e9b110b1f27ca0f053afc7</sys_scope>
+            <sys_update_name>sys_choice_x_800383_ajanta_x_ajanta_x_ray_details_x_ray_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-26 13:50:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_ray_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dental</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_ajanta_x_ray_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-26 13:51:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-26 13:51:19</sys_updated_on>
+            <value>Dental</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_ray_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Digital</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_ajanta_x_ray_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-26 13:50:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-26 13:51:07</sys_updated_on>
+            <value>Digital</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_ray_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plane</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_ajanta_x_ray_details</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-26 13:50:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-26 13:50:59</sys_updated_on>
+            <value>Plane</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

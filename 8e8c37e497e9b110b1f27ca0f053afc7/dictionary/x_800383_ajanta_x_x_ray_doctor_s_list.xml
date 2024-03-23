@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="79c5414b97a93510b1f27ca0f053af7f" label="X Ray Doctor's List" max_length="40" name="x_800383_ajanta_x_x_ray_doctor_s_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Referred By" max_length="1000" name="referred_by" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dr A.K. Bhatnagar DCH" value="Dr A.K. Bhatnagar DCH"/>
+                <element inactive_on_update="false" label="Dr Mohd. Naved M.D." value="Dr Mohd. Naved M.D."/>
+                <element inactive_on_update="false" label="Dr N K Sharma M.D" value="Dr N K Sharma M.D"/>
+                <element inactive_on_update="false" label="Dr Neeraj Agarwal M.D." value="Dr Neeraj Agarwal M.D."/>
+                <element inactive_on_update="false" label="Dr Neeraj Gupta M.D." value="Dr Neeraj Gupta M.D."/>
+                <element inactive_on_update="false" label="Dr P.R Singh M.S" value="Dr P.R Singh M.S"/>
+                <element inactive_on_update="false" label="Dr R.C Chaudhary DCH" value="Dr R.C Chaudhary DCH"/>
+                <element inactive_on_update="false" label="Dr R.K. Gupta MO ESI" value="Dr R.K. Gupta MO ESI"/>
+                <element inactive_on_update="false" label="Dr Sanjay Singh M.D." value="Dr Sanjay Singh M.D."/>
+                <element inactive_on_update="false" label="Dr. Mohd Yusuf MBBS." value="Dr. Mohd Yusuf MBBS."/>
+            </choice>
+        </element>
+    </element>
+</database>

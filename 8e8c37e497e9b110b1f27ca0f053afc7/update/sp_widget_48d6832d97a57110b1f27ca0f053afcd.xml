@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	c.data.referred_by="";
+	c.show=true;
+	c.showCal=false;
+$scope.problem={
+		displayValue:c.data.referred_by,
+		value:c.data.referred_by,
+		name:'problem',
+	}	
+	
+		$scope.$on("field.change",function(events,parms){
+		c.data.referred_by=$scope.problem.value;
+			console.log(c.data.referred_by);
+		c.data.ReferredBy=$scope.problem.displayValue;
+		c.data.action="getComm";	
+			console.log(c.data.ReferredBy);
+			c.show=false;
+		  c.server.update().then(function(response){
+				if(response){
+					c.show=false;
+					c.showCal=true;
+				}
+			});
+			
+   })
+	
+	c.print=function(){
+		window.print();
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>calculate_doctor__commission_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Calculate Doctor' Commission widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	  if(input && input.action=="getComm"){
+			options.table = "x_800383_ajanta_x_ajanta_x_ray_details";
+    options.fields = "number,patient_name,age,referred_by,x_ray_plate,r_s_value,x_ray_date,price,x_ray_type";
+    options.d = 'desc';
+    options.filter = 'x_ray_date>=javascript:gs.beginningOfThisMonth()^referred_by='+input.ReferredBy;
+    //options.filter=data.checkBussinuserQuery;
+    options.window_size = 5;
+    options.view = 'sp';
+    options.useInstanceTitle = true; // to make sure Data Table widget uses headerTitle always
+    options.headerTitle = 'Monthly Doctor X-Ray';
+    options.show_breadcrumbs = false;
+    options.hide_header = false
+    //options.show_keywords='true';
+    options.enable_filter = 'true';
+		options.show_breadcrumbs='true';	
+    options.opAction = "Load";
+    options.opFromDate = "";
+    options.opToDate = "";
+    options.searchText = "";
+    options.openIssues = 0;
+
+    data.dataTableWidget5 = $sp.getWidget('copy_of_data_table_ajanta_x_ray', options);
+			console.log(options);
+var g1 = new GlideAggregate('x_800383_ajanta_x_ajanta_x_ray_details');
+g1.addEncodedQuery('x_ray_date>=javascript:gs.beginningOfThisMonth()^referred_by='+input.ReferredBy);
+g1.addAggregate('COUNT');
+g1.query();
+while(g1.next()){
+	
+data.totalXrays=g1.getAggregate('COUNT');
+	console.log(data.totalXrays);
+data.commision=data.totalXrays*50;
+	
+	
+}	
+			
+			
+		}
+    
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-28 04:10:39</sys_created_on>
+        <sys_id>48d6832d97a57110b1f27ca0f053afcd</sys_id>
+        <sys_mod_count>64</sys_mod_count>
+        <sys_name>Calculate Doctor' Commission widget</sys_name>
+        <sys_package display_value="Ajanta X-Ray Clinic" source="x_800383_ajanta_x">8e8c37e497e9b110b1f27ca0f053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ajanta X-Ray Clinic">8e8c37e497e9b110b1f27ca0f053afc7</sys_scope>
+        <sys_update_name>sp_widget_48d6832d97a57110b1f27ca0f053afcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-04 04:56:44</sys_updated_on>
+        <template><![CDATA[<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+</head>
+<section>
+  <div class="container" id="commission">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-12">
+        <div class="panel panel-info">
+          <div class="panel-heading text-white">
+          Calculate Doctor's Commission
+           <div style="float:right;">
+             <button class="btn btn-warning text-white" ng-if="c.showCal" ng-click="c.print()" style="margin-top:-6px;">Print&nbsp;<i class="fa fa-print"></i></button>
+              <button class="btn btn-danger text-white" ng-if="c.showCal"  style="margin-top:-6px;" onclick="generatePDF()">Export to Pdf &nbsp;<i class="fa fa-file-pdf-o"></i></button>
+            </div>
+          </div>
+          <div class="panel-body">
+              <div>
+              <sn-record-picker field="problem" table="'x_800383_ajanta_x_x_ray_doctor_s_list'" display-field="'referred_by'" value-field="'sys_id'" search-fields="'referred_by'" page-size="100" multiple="false" placeholder="Select Doctor"></sn-record-picker>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading text-white">
+            Doctor' Commision details
+          </div>
+          <div class="panel-body bg-white">
+            <div class="text-center" ng-if="c.show">
+              <strong>No data available in the table</strong>
+            </div>
+              <sp-widget widget="data.dataTableWidget5"></sp-widget>
+          </div>
+          <div class="panel-footer" ng-if="c.showCal">
+            <div class="text-right">
+            <h4>
+              Total X-Ray cases:<strong>{{c.data.totalXrays}}</strong>
+            </h4>
+            <h4>
+              Total Commision:<strong>{{c.data.totalXrays}} X 50</strong>
+            </h4>
+            <h4>
+              Total Commision Cost:<strong>{{c.data.commision}}</strong>
+            </h4>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+  function generatePDF() {
+        
+        // Choose the element id which you want to export.
+        var element = document.getElementById('commission');
+        element.style.width = '700px';
+        element.style.height = '900px';
+        var opt = {
+            margin:       0.5,
+            filename:     'myfile.pdf',
+            image:        { type: 'jpeg', quality: 1 },
+            html2canvas:  { scale: 1 },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait',precision: '12' }
+          };
+        
+        // choose the element and pass it to html2pdf() function and call the save() on it to save as pdf.
+        html2pdf().set(opt).from(element).save();
+      }
+</script>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5010c87c97e9b110b1f27ca0f053af78" label="Ajanta X-Ray Details" max_length="40" name="x_800383_ajanta_x_ajanta_x_ray_details" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Age" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" mandatory="true" max_length="200" name="patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Price" mandatory="true" max_length="40" name="price" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Referred By" mandatory="true" max_length="40" name="referred_by" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dr A.K. Bhatnagar DCH" value="Dr A.K. Bhatnagar DCH"/>
+                <element inactive_on_update="false" label="Dr Mohd. Naved M.D." value="Dr Mohd. Naved M.D."/>
+                <element inactive_on_update="false" label="Dr N K Sharma M.D" value="Dr N.K Sharma M.D."/>
+                <element inactive_on_update="false" label="Dr Neeraj Agarwal M.D." value="Dr Neeraj Agarwal M.D."/>
+                <element inactive_on_update="false" label="Dr Neeraj Gupta M.D." value="Dr Neeraj Gupta M.D."/>
+                <element inactive_on_update="false" label="Dr P.R Singh M.S" value="Dr P.R Singh M.S"/>
+                <element inactive_on_update="false" label="Dr R.C Chaudhary DCH" value="Dr R.C Chaudhary DCH"/>
+                <element inactive_on_update="false" label="Dr R.K. Gupta MO ESI" value="Dr R.K. Gupta MO ESI"/>
+                <element inactive_on_update="false" label="Dr Sanjay Singh M.D." value="Dr Sanjay Singh M.D."/>
+                <element inactive_on_update="false" label="Dr. Mohd Yusuf MBBS." value="Dr. Mohd Yusuf MBBS."/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="R's Value" mandatory="true" max_length="40" name="r_s_value" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="R1" value="r1"/>
+                <element inactive_on_update="false" label="R10" value="r10"/>
+                <element inactive_on_update="false" label="R11" value="r11"/>
+                <element inactive_on_update="false" label="R12" value="r12"/>
+                <element inactive_on_update="false" label="R13" value="r13"/>
+                <element inactive_on_update="false" label="R14" value="r14"/>
+                <element inactive_on_update="false" label="R15" value="r15"/>
+                <element inactive_on_update="false" label="R16" value="r16"/>
+                <element inactive_on_update="false" label="R17" value="r17"/>
+                <element inactive_on_update="false" label="R18" value="r18"/>
+                <element inactive_on_update="false" label="R19" value="r19"/>
+                <element inactive_on_update="false" label="R2" value="r2"/>
+                <element inactive_on_update="false" label="R20" value="r20"/>
+                <element inactive_on_update="false" label="R21" value="r21"/>
+                <element inactive_on_update="false" label="R22" value="r22"/>
+                <element inactive_on_update="false" label="R23" value="r23"/>
+                <element inactive_on_update="false" label="R24" value="r24"/>
+                <element inactive_on_update="false" label="R25" value="r25"/>
+                <element inactive_on_update="false" label="R26" value="r26"/>
+                <element inactive_on_update="false" label="R27" value="r27"/>
+                <element inactive_on_update="false" label="R28" value="r28"/>
+                <element inactive_on_update="false" label="R3" value="r3"/>
+                <element inactive_on_update="false" label="R4" value="r4"/>
+                <element inactive_on_update="false" label="R5" value="r5"/>
+                <element inactive_on_update="false" label="R6" value="r6"/>
+                <element inactive_on_update="false" label="R7" value="r7"/>
+                <element inactive_on_update="false" label="R8" value="r8"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="X-Ray Date" mandatory="true" max_length="40" name="x_ray_date" type="glide_date" use_dynamic_default="true" virtual_type="formula"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="X-Ray Plate" mandatory="true" max_length="40" name="x_ray_plate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="10X12" value="10x12"/>
+                <element inactive_on_update="false" label="10X8" value="10x8"/>
+                <element inactive_on_update="false" label="11X14" value="11x14"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="X-Ray Type" mandatory="true" max_length="40" name="x_ray_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dental" value="Dental"/>
+                <element inactive_on_update="false" label="Digital" value="Digital"/>
+                <element inactive_on_update="false" label="Plane" value="Plane"/>
+            </choice>
+        </element>
+    </element>
+</database>

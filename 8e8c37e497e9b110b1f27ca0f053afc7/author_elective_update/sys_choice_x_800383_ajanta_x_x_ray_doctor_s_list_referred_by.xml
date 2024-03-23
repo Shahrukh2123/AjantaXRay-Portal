@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="referred_by" table="x_800383_ajanta_x_x_ray_doctor_s_list" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>referred_by</element>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:42:31</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>referred_by</sys_name>
+            <sys_package display_value="Ajanta X-Ray Clinic" source="x_800383_ajanta_x">8e8c37e497e9b110b1f27ca0f053afc7</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ajanta X-Ray Clinic">8e8c37e497e9b110b1f27ca0f053afc7</sys_scope>
+            <sys_update_name>sys_choice_x_800383_ajanta_x_x_ray_doctor_s_list_referred_by</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:42:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr A.K. Bhatnagar DCH</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:42:31</sys_updated_on>
+            <value>Dr A.K. Bhatnagar DCH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr Mohd. Naved M.D.</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:43:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:43:13</sys_updated_on>
+            <value>Dr Mohd. Naved M.D.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr N K Sharma M.D</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:43:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:43:29</sys_updated_on>
+            <value>Dr N K Sharma M.D</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr Neeraj Agarwal M.D.</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:43:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:43:50</sys_updated_on>
+            <value>Dr Neeraj Agarwal M.D.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr Neeraj Gupta M.D.</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:44:09</sys_updated_on>
+            <value>Dr Neeraj Gupta M.D.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr P.R Singh M.S</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:44:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:44:24</sys_updated_on>
+            <value>Dr P.R Singh M.S</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr R.C Chaudhary DCH</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:44:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:44:40</sys_updated_on>
+            <value>Dr R.C Chaudhary DCH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr R.K. Gupta MO ESI</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:44:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:45:03</sys_updated_on>
+            <value>Dr R.K. Gupta MO ESI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr Sanjay Singh M.D.</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:45:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:45:22</sys_updated_on>
+            <value>Dr Sanjay Singh M.D.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>referred_by</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dr. Mohd Yusuf MBBS.</label>
+            <language>en</language>
+            <name>x_800383_ajanta_x_x_ray_doctor_s_list</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-02 10:45:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 10:45:37</sys_updated_on>
+            <value>Dr. Mohd Yusuf MBBS.</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

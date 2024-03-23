@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.panel1{
+  border:1px solid #ff0000;
+  background-color:#ff0000;
+  Padding-top:20px;
+  Padding-bottom:20px;
+  Padding-left:20px;
+
+}
+.card3{
+   background-color:#ff0000 !important;
+  
+}
+.panelrad{
+  border-radius: 15px;
+}
+.tab {
+  overflow: hidden;
+ margin-bottom:10px;
+  border-bottom: 2px solid #ccc;
+  // background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  border-bottom: 3px solid #ddd;
+  background-color: inherit;
+  float: left;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color:#798399;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  //border-left: none;
+  border: none;
+  border-bottom: 3px solid #00AECF;
+  margin:0;
+  color:#00AECF;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+
+}
+.col-header{
+font-size: 14px;
+    color: #798399;
+}
+
+.col-content{
+  font-size: 16px;
+    color: #000000;
+  
+  padding-bottom:10px;
+}
+
+.panel{
+  	
+  Padding-top:20px;
+  Padding-bottom:20px;
+  Padding-left:20px;
+  /*border-right:40px solid #D3D3D3;*/
+  background-color: #EFF1F5;
+}
+
+.col-md-2{
+  width:13.66%
+}
+.col-md-4{
+  width:24.33%
+}
+.col-md-5{
+  width:38.66%
+}
+
+.search_box{
+
+}
+.tooltip-inner {     white-space: pre-wrap; }
+.dot1 {
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  font-size: 11px;
+  color: #FFFFFF;
+  background-color: #12AD2B;
+  text-align: center;
+  border: 1px solid #000000;
+  display: inline-block;
+}
+.dot2 {
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  font-size: 11px;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  text-align: center;
+  border: 1px solid #000000;
+  display: inline-block;
+}
+.dot3 {
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  font-size: 11px;
+  color: #000000;
+  background-color: #EFF1F5;
+  text-align: center;
+  border: 1px solid #000000;
+  display: inline-block;
+}
+
+/*.glyphicon-pencil{
+  top:43px;
+  left:30px;
+}*/
+.pencil{
+  top:12px;
+  left:2px;
+  color:white
+}
+}
+fa-trash{
+  top:63px;
+  left:30px;
+}
+hr.new2 {
+  border-top: 1px dashed red;
+  width:50%;
+  margin:0px;
+}
+.fa-check-circle{
+  // width:50px;
+  //height:50px;
+}
+on-click{
+  display: none;
+}
+.fa-circle-arrow-down{
+  position: absolute;
+}
+.fa-search { 
+  padding-top:5px;
+  padding-right:20px;
+  padding-left:10px;
+}
+
+.goal
+{
+
+  /* border: 0.1rem solid #5A7F71; */
+  padding: 2rem;
+  color:#073262;
+}
+
+.card-title
+{
+  color:#073262;
+  font-weight:800;
+}
+
+.btn {
+
+  background-color: #073262;
+}
+
+.dborder h1,.dborder p {
+  text-align: center;
+}
+.dborder
+{
+  padding: 15px;
+  border: 2px solid #00AECF;
+  border-radius: 10px 10px;
+}
+
+.crtbut
+{
+  border:1px solid #073262;  
+  padding: 1rem 3rem;
+  border-radius: 1rem 1rem;
+}
+
+.card{
+ border-radius: 4px;
+    background-image: url('https://genpactdevelop.service-now.com/kpi_back 01.svg');
+  background-position: 95% 0;
+  background-repeat:no-repeat;
+border-radius: 15px;
+opacity: 1;
+  /*padding: 10px;
+  cursor: pointer;
+  background: #00AECF 0% 0% no-repeat padding-box;*/
+  color:#ffffff;
+  width: 22.5rem ;
+ /* margin-right:5px;*/
+  height: 130px;
+}
+
+/*.card:hover{
+  background: rgb(13,84,163);
+  background: linear-gradient(170deg, rgba(13,84,163,1) 11%, rgba(7,50,98,1) 100%); 
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}*/
+
+/*.penbg
+{
+  position: relative;
+  float: right;
+  top: -20rem;
+  left: -4rem;
+}*/
+
+.penbg1
+{
+ 
+  float: right;
+  padding: 2.5rem 1.3rem !important;
+  
+}
+.penplace
+{
+  background: #073262;
+  border-radius: 2rem 2rem;
+  /* text-align: center; */
+  padding: 3.5rem 1.3rem;
+  /* margin-right: 5px; */
+  color: white;
+}
+
+
+.col-md-3
+{
+ width:20%; 
+}
+
+.innerbox
+{
+
+  width: 20%;
+height: 130px;
+ /*background: #4ECDE5 0% 0% no-repeat padding-box;*/
+opacity: 1;
+  float:right;
+  border-radius: 3.5rem 1.5rem 1.5rem 3.5rem;
+  justify-content: center;
+    display: flex;
+}
+.innerbox1
+{
+    
+    
+    height: 8.2rem;
+    padding: 1.5rem;
+}
+.bimg
+{
+  background: transparent url('https://genpactdevelop.service-now.com/header_sub_process_icon.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.card1
+{
+   background-image: url(https://genpactdevelop.service-now.com/'kpi_back 04.svg');
+}
+.card2
+{
+  background-image: url('https://genpactdevelop.service-now.com/kpi_back 02.svg');
+}
+.card3
+{
+   background-image: url('https://genpactdevelop.service-now.com/kpi_back 03.svg');
+}
+.card4
+{
+   background-image: url('https://genpactdevelop.service-now.com/kpi_back 05.svg');
+}
+/*.incol
+{
+background: #35C28D  0% 0% no-repeat padding-box;
+opacity: 1;
+backdrop-filter: blur(50px);
+-webkit-backdrop-filter: blur(50px);
+}
+.incol1
+{
+  background: #FF9197  0% 0% no-repeat padding-box;
+opacity: 1;
+backdrop-filter: blur(50px);
+-webkit-backdrop-filter: blur(50px);
+}
+.incol2
+{
+  background: #F6A27D 0% 0% no-repeat padding-box;
+opacity: 1;
+backdrop-filter: blur(50px);
+-webkit-backdrop-filter: blur(50px);
+}*/
+.srchlen
+{
+  display: flex;
+    justify-content: right;
+    width: 45%;
+    padding-top: 5px;
+}
+#search_box
+{
+ border-radius: 10px;
+    margin-left: 5px; 
+}
+
+.innerbox1 p
+{
+  font-size: 18px;
+}
+.innerbox1 h1
+{
+  font-size: 48px;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.card-details {
+    width: 40%;
+    height: 49%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-details img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #073262;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #073262;
+    height: 40%;
+    margin: 8px 0;
+    overflow: hidden;
+}
+
+.card-link {
+    margin-top: auto;
+    display: inline-block;
+    background-color: #00AECF;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+a{
+ 		text-align: center;
+    font-weight: bolder; 
+}
+.card-link:hover {
+    background-color: #24a0b7; /* Change to a darker shade of green on hover */
+    transform: scale(1.05);
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>dashboard_ajanta_xray</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Dashboard Ajanta Xray</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	var g1 = new GlideAggregate('x_800383_ajanta_x_ajanta_x_ray_details');
+g1.addEncodedQuery('x_ray_type=Plane');
+g1.addAggregate('COUNT');
+g1.query();
+while(g1.next()){
+data.planeXray = g1.getAggregate('COUNT');
+}
+var g2 = new GlideAggregate('x_800383_ajanta_x_ajanta_x_ray_details');
+g2.addEncodedQuery('x_ray_type=Digital^sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()');
+g2.addAggregate('COUNT');
+g2.query();
+while(g2.next()){
+data.digitalXRay = g2.getAggregate('COUNT');
+	
+}
+	var g3 = new GlideAggregate('x_800383_ajanta_x_ajanta_x_ray_details');
+g3.addEncodedQuery('x_ray_type=Dental^sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()');
+g3.addAggregate('COUNT');
+g3.query();
+while(g3.next()){
+data.dentalXRay = g3.getAggregate('COUNT');
+	
+}
+	var g4 = new GlideAggregate('x_800383_ajanta_x_ajanta_x_ray_details');
+g4.addEncodedQuery('sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()');
+g4.addAggregate('COUNT');
+g4.query();
+while(g4.next()){
+data.todayXRay = g2.getAggregate('COUNT');
+	
+}
+		var g5 = new GlideAggregate('x_800383_ajanta_x_ajanta_x_ray_details');
+g5.addEncodedQuery('x_ray_dateONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()');
+g5.addAggregate('COUNT');
+g5.query();
+while(g5.next()){
+data.monthXRays = g5.getAggregate('COUNT');
+	
+}
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 08:21:23</sys_created_on>
+        <sys_id>5d632cf497adb110b1f27ca0f053af2f</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Dashboard Ajanta Xray</sys_name>
+        <sys_package display_value="Ajanta X-Ray Clinic" source="x_800383_ajanta_x">8e8c37e497e9b110b1f27ca0f053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ajanta X-Ray Clinic">8e8c37e497e9b110b1f27ca0f053afc7</sys_scope>
+        <sys_update_name>sp_widget_5d632cf497adb110b1f27ca0f053af2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 13:10:19</sys_updated_on>
+        <template><![CDATA[<div style="float:right;">
+<a class="btn btn-success text-white" href="/ajanta_x_ray_fzd?id=calculate_doctor_commission">
+  Calculate Doctor's Monthly  Commision
+</a>  
+</div>
+
+<h2>
+  Digital X-Rays Summary
+</h2> 
+<div class="">
+  <div class="row"> 
+
+     <div class="col-md-3" >
+      <div class="card card3 card-1" style="margin-bottom:10px;height: 130px;">  
+         <div class="innerbox1">
+        <p >Today's Digital X-Rays</p>
+        <h1>{{c.data.digitalXRay}}</h1>
+        </div>
+      </div>  
+    </div> 
+
+
+    <div class="col-md-3" >
+      <div class="card card1 card-1" style="margin-bottom:10px;height: 130px;"> 
+         <div class="innerbox1">
+        <p>Month X-Rays </p>
+        <h1>{{c.data.monthXRays}}</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3" >
+      <div class="card card2 card-1" style="margin-bottom:10px;height: 130px;">  
+         <div class="innerbox1">
+        <p>Fees Pending </p>
+        <h1>0</h1>
+        </div>
+        
+      </div>
+    </div>
+    
+     <div class="col-md-3" >
+      <div class="card card4 card-1" style="margin-bottom:10px;height: 130px;">  
+         <div class="innerbox1">
+        <p>Today's Dental X-Rays</p>
+        <h1>{{c.data.digitalXRay}}</h1>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3" >
+      <div class="card card1 card-1" style="margin-bottom:10px;height: 130px;"> 
+         <div class="innerbox1">
+        <p>Today's Plane XRays </p>
+        <h1>{{c.data.planeXray}}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card-container">
+        <div class="card-details">
+            <img src="https://genpactdevelop.service-now.com/x_ggisu_tas_pipe_0.tas_catalog.jpg" width="300" height="157"
+ alt="Card Image 1">
+            <h2 class="card-title">New X-Ray Registration</h2>
+            <p class="card-description">Create a new x-ray registration here</p>
+            <a href="/ajanta_x_ray_fzd?id=xray_registration" class="card-link">Register</a>
+        </div>
+        <div class="card-details">
+            <img src="https://genpactdevelop.service-now.com/x_ggisu_tas_pipe_0.approval.jpg" width="300" height="157"
+ alt="Card Image 2">
+            <h2 class="card-title">Todays X-Rays Records</h2>
+            <p class="card-description">Get Details of Todays Total X-Rays</p>
+            <a href="/ajanta_x_ray_fzd?id=today_x_rays_records" class="card-link">View Records</a>
+        </div>
+   <div class="card-details">
+            <img src="https://genpactdevelop.service-now.com/x_ggisu_tas_pipe_0.status.jpg" width="300" height="157"
+ alt="Card Image 2">
+            <h2 class="card-title">Month X-Rays Records</h2>
+            <p class="card-description">Get Details of Month X-Rays</p>
+            <a href="/ajanta_x_ray_fzd?id=month_x_rays" class="card-link">View Records</a>
+        </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
